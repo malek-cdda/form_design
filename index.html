@@ -12,7 +12,7 @@
   <main class="container mx-auto">
     <!-- correct address section  -->
     <section>
-      <div class="h-full mx-auto py-5 rounded-md">
+      <div class="h-full mx-auto   rounded-md">
         <div class="mb-4">
           <div class="flex items-center gap-2">
             <div>
@@ -338,7 +338,7 @@
                   <label for="sc_upgrade_cost" class="block text-sm font-medium text-gray-700/70">Upgrade Cost</label>
                   <div class="relative mt-1 rounded-md">
                     <input
-                      class="border-[#E6E6E6] focus:border-primary-500 focus:ring-primary-500 block w-full appearance-none rounded-md border border-[#E6E6E6] px-3 py-2 placeholder:text-[#B3B3B3] text-sm mt-1 undefined"
+                      class="  focus:border-primary-500 focus:ring-primary-500 block w-full appearance-none rounded-md border border-[#E6E6E6] px-3 py-2 placeholder:text-[#B3B3B3] text-sm mt-1 undefined"
                       id="sc_upgrade_cost" placeholder="0.00" type="text" value="$0.00" inputmode="numeric" />
                   </div>
                 </div>
@@ -427,50 +427,85 @@
                 </div>
               </div>
             </div>
-            <div class="flex w-full flex-wrap gap-4">
-              <div class="ml-0 sm:ml-2">
-                <label for="radio" class="block text-sm font-medium text-gray-700/70">This Is Corner Lot</label>
-                <div class="flex">
-                  <div class="flex items-center mr-4">
-                    <input name="corner_lot" id="inline-radio" type="radio"
-                      class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                      value="true" /><label for="inline-radio"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
-                  </div>
-                  <div class="flex items-center mr-4">
-                    <input name="corner_lot" id="inline-2-radio" type="radio"
-                      class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                      value="false" /><label for="inline-2-radio"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
+
+            <div class="ml-0">
+              <div class="flex w-full flex-wrap gap-4">
+                <div class="ml-0 sm:ml-2"><label for="radio" class="block text-sm font-medium text-gray-700">This Is
+                    Corner Lot</label>
+                  <div class="flex">
+                    <div class="flex items-center mr-4"><input name="corner_lot" id="inline-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="true"><label for="inline-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label></div>
+                    <div class="flex items-center mr-4"><input name="corner_lot" id="inline-2-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="false"><label for="inline-2-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label></div>
                   </div>
                 </div>
-              </div>
-              <div class="ml-0 sm:ml-12">
-                <label for="radio" class="block text-sm font-medium text-gray-700/70">Water Front</label>
-                <div class="flex">
-                  <div class="flex items-center mr-4">
-                    <input name="water_front" id="inline-w-radio" type="radio"
-                      class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                      value="true" /><label for="inline-w-radio"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
+                <div class="ml-0 sm:ml-12"><label for="radio" class="block text-sm font-medium text-gray-700">Water
+                    Front</label>
+                  <div class="flex">
+                    <div class="flex items-center mr-4"><input name="water_front" id="inline-w-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="true"><label for="inline-w-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label></div>
+                    <div class="flex items-center mr-4"><input name="water_front" id="inline-w-2-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="false"><label for="inline-w-2-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label></div>
                   </div>
-                  <div class="flex items-center mr-4">
-                    <input name="water_front" id="inline-w-2-radio" type="radio"
-                      class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                      value="false" /><label for="inline-w-2-radio"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
+                </div>
+                <div class="ml-0 sm:ml-2"><label for="radio" class="block text-sm font-medium text-gray-700">Water
+                    type</label>
+                  <div class="flex">
+                    <div class="flex items-center mr-4"><input name="water_type" id="inline-wt-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="fresh"><label for="inline-wt-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fresh</label></div>
+                    <div class="flex items-center mr-4"><input name="water_type" id="inline-wt-2-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="salt"><label for="inline-wt-2-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Salt</label></div>
+                  </div>
+                </div>
+                <div class="ml-0 sm:ml-2"><label for="radio"
+                    class="block text-sm font-medium text-gray-700">Boatable</label>
+                  <div class="flex">
+                    <div class="flex items-center mr-4"><input name="boatable" id="inline-bt-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="true"><label for="inline-bt-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label></div>
+                    <div class="flex items-center mr-4"><input name="boatable" id="inline-bt-2-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="false"><label for="inline-bt-2-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label></div>
+                  </div>
+                </div>
+                <div class="ml-0 sm:ml-2"><label for="radio"
+                    class="block text-sm font-medium text-gray-700">Dock</label>
+                  <div class="flex">
+                    <div class="flex items-center mr-4"><input name="dock" id="inline-dc-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="true"><label for="inline-dc-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label></div>
+                    <div class="flex items-center mr-4"><input name="dock" id="inline-dc-2-radio" type="radio"
+                        class="w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        value="false"><label for="inline-dc-2-radio"
+                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label></div>
                   </div>
                 </div>
               </div>
             </div>
-
-
         </div>
+
+
+      </div>
       </div>
     </section>
     <!-- Is this property house information correct? -->
     <section>
-      <div class="  h-full mx-auto pY-5 rounded-md m4">
+      <div class="  h-full mx-auto py-5 rounded-md m4">
         <div class="mb-4">
           <div class="flex items-center gap-2">
             <div>
@@ -1260,9 +1295,10 @@
           </div>
         </div>
         <div
-          class="flex w-full h-auto flex-col items-center justify-center bg-primary-50 px-4 py-2 border-dashed rounded-lg tracking-wide border my-2 bg-purple-500/60">
+          class="flex w-full h-auto flex-col items-center justify-center bg-primary-50 px-4 py-2 border-dashed rounded-lg tracking-wide border my-2 bg-purple-500/60"
+          id="name">
           <div class="py-2">Upload A-B Purchase Agreement</div>
-          <label class="w-2/4 flex flex-col items-center cursor-pointer text-center">
+          <label class="w-full flex flex-col items-center cursor-pointer text-center">
             <div
               class="bg-primary-200 rounded-full w-12 h-12 text-xl flex items-center justify-center mb-4 bg-purple-500">
               <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"
@@ -1271,6 +1307,7 @@
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
               </svg>
             </div>
+            <input type="file" for="name" class="hidden" />
             <div class="flex flex-col md:flex-row gap-2 md:items-center">
               <button class="px-3 py-2 text-xs rounded-md bg-primary-500 hover:bg-primary-300 duration-200 text-white">
                 Select from File Manager
@@ -1806,8 +1843,9 @@
             <div><label for="location" class="block text-sm font-medium text-gray-700">Title to this property
                 as</label><select id="location" name="location"
                 class="mt-1 block w-full rounded-md border-gray-300 py-1.5 pl-3 pr-10 text-base focus:border-primary-500 focus:outline-none focus:ring-primary-500 sm:text-sm">
-                <option value="individual">Individual</option>
                 <option value="organization">Organization</option>
+                <option value="individual">Individual</option>
+
               </select></div>
           </div>
           <div class="space-y-2">
@@ -1907,7 +1945,7 @@
             </h2>
             <div
               class="flex items-center justify-center w-full h-[200px] bg-primary-50 rounded-lg border-primary-500 border-dashed border-[2px] cursor-pointer bg-indigo-300">
-              <label class="w-2/4 flex flex-col items-center cursor-pointer text-center">
+              <label class="w-full flex flex-col items-center cursor-pointer text-center">
                 <div
                   class="bg-primary-200 rounded-full w-12 h-12 text-xl flex items-center text-white justify-center mb-4 bg-indigo-500">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
@@ -1920,8 +1958,9 @@
                 <div class="text-center mb-2">
                   <p class="text-base font-medium text-[#333333]">Drag and drop files, or<span class="text-primary-500">
                       Browse</span></p>
-                  <p class="text-xs text-[#999999]">Support zip and rar files</p>
+                  <p class="text-xs text-indigo-300">Support zip and rar files</p>
                 </div>
+                <input type="file" class="hidden" />
                 <div class="flex flex-col md:flex-row gap-2 md:items-center"><button
                     class="px-3 py-2 text-xs rounded-md bg-primary-500 hover:bg-primary-300 duration-200 text-white">Select
                     from File Manager</button></div>
